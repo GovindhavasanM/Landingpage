@@ -1,6 +1,12 @@
 body{
-    all:unset;
-    font-family:sans-serif;
+    all: unset;
+        font-family: poppins, sans-serif;
+        box-sizing: border-box;
+    
+    }
+    
+    .Volkhov {
+        font-family: volkhov, sans-serif;
 }
 .background{
     background-color: rgba(250,116,54,1);
@@ -36,23 +42,30 @@ body{
             color: #FFF;
         }
     }
+
 }
 .container1{
+    width: 90vw;
+        margin: auto;
     margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:7vw;
     b{
-        font-size: 5.5rem;
+        font-size: 3.5rem;
     }
     p{
-        font-size: 2rem;
+        font-size: 1.1rem;
+        }
+        
+        .grey {
+            color: #666666;
     }
     input{
         margin-top: 3vh;
-        font-size: 1.7rem;
-        padding: 0.6vh 0.8vw;
+        font-size: 1.2rem;
+            padding: 1.5vh 0.8vw;
         border:2px solid rgba(250, 116, 54, 1);
         border-radius: 5px;
         background-color: #FFF;
@@ -63,35 +76,46 @@ body{
     }
 }
 .container2{
+    padding: 1% 2%;
     margin-left: 25vw;
-    margin-top: 12vh;
+    margin-top: 16vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6vw;
-    border: 2px solid black;
-    width: 45vw;
-    height: 10vh;
+    border-radius: 10px;
+        width: 50vw;
+        height: 15vh;
     border: none;
     box-shadow:4px 4px 9px rgba(250, 116, 54, 0.2),-4px -4px 9px rgba(250, 116, 54, 0.2);
     b{
-        font-size: 1.2rem;
-    }
+        font-size: 1rem;
+            font-weight: 500;
+        }
+        
+        p {
+            font-size: 0.8rem;
+            color: #666666;
+        }
     input{
         font-size: 1.2rem;
         background-color: rgba(250, 116, 54, 1);
         color: #FFF;
-        padding: 0.8vh 0.6vw;
+        padding: 1.6vh 0.8vw;
         border: none;
         border-radius:4px;
     }
 }
 .container3{
     width: 100vw;
-    height: 46vh;
+    height: auto;
     padding: 3vh 0vw;
-    background-color: rgba(247, 248, 252, 1);;
-    margin-top: 10vh;
+    padding-left: 3%;
+        background-color: rgba(247, 248, 252, 1);
+    
+        .grey {
+            color: #666666;
+        }
     .sub1container3{
         display: flex;
         justify-content: center;
@@ -104,6 +128,7 @@ body{
         pre{
             margin-left: 7vw;
             font-size: 1rem;
+            font-family: poppins, sans-serif;
         }
         img{
             margin-left: 2vw;
@@ -146,6 +171,9 @@ body{
     justify-content: center;
     align-items: center;
     gap:3vw;
+    div {
+            transform: scale(1);
+        }
     .imgdet{
         margin-top: -1vh;
         padding:2vh 0.7vw;
@@ -248,9 +276,9 @@ body{
     
 }
 .anamoly{
-    margin-top: -19vh;
+    margin-top: -25vh;
     width: 68%;
-    margin-left: 4.2vw;
+    margin-left: 4.9vw;
 }
 .london{
     height: 327px;
@@ -334,7 +362,7 @@ body{
             padding-top: 20vh;
             padding-bottom: 1vh;
             position: relative;
-            top: 32vh;
+            top: 40vh;
             left: 5vw;
             border: none;
             box-shadow: 4px 4px 9px rgba(250, 116, 54, 0.2);
@@ -348,8 +376,9 @@ body{
         }
         .comments{
            font-size: 1.4rem;
-           padding: 2vh 3vw;
-           position: relative;
+        padding: 2vh 3vw;
+        height: 40vh;
+        position: relative;
            top: -23vh;
            border: none;
            box-shadow: 4px 4px 9px rgba(250, 116, 54, 0.2),-4px -4px 9px rgba(250, 116, 54, 0.2);
@@ -357,7 +386,7 @@ body{
         img{
             position: relative;
             left: -4vw;
-            top: -37vh;
+            top: -50vh;
 
         }
     }  
